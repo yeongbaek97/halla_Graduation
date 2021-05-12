@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tabFragement.home_tab1">
+
+
+    <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:layout_below="@+id/home_tablayout">
+
+
+        <ImageView
+            android:id="@+id/ic_Restaurang"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/restaurang"
+            android:layout_toLeftOf="@id/ic_soju"
+            android:layout_marginRight="20dp" />
+
+        <ImageView
+            android:id="@+id/ic_soju"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/soju"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/ic_cafe"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/cafe"
+            android:layout_toRightOf="@id/ic_soju"
+            android:layout_marginLeft="20dp"/>
+
+ </RelativeLayout>
+
+</FrameLayout>
